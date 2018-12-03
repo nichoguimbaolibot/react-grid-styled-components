@@ -63,7 +63,7 @@ class App extends Component {
           Test Styled Components
         </Title>
           <ColumnDiv />
-          <ButtonGenerateNumber onClick={this.handleButtonTest}>
+          <ButtonGenerateNumber title="generate random numbers" onClick={this.handleButtonTest}>
             Generate Random Numbers
           </ButtonGenerateNumber>
           <ColumnDiv />
